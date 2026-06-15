@@ -4,7 +4,7 @@
   "description": "��\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node --watch src/index.js"
   },
   "repository": {
     "type": "git",
