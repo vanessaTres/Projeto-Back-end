@@ -4,8 +4,10 @@
   "description": "��\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "start": "node --watch src/index.js"
-  },
+  
+  "start": "node src/index.js",
+  "dev": "nodemon src/index.js"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vanessaTres/Projeto-Back-end.git"
@@ -19,6 +21,10 @@
   },
   "homepage": "https://github.com/vanessaTres/Projeto-Back-end#readme",
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }

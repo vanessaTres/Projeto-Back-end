@@ -1,0 +1,67 @@
+###
+
+
+GET http://localhost:3000/produtos
+
+
+
+###
+
+
+
+GET http://localhost:3000/produtos/1
+
+
+
+###
+
+
+
+GET http://localhost:3000/produtos/99
+
+
+
+###
+
+
+
+POST http://localhost:3000/produtos
+Content-Type: application/json
+
+{
+    "nome": "Milk-shake",
+    "preco": 14.50
+}
+
+###
+
+
+
+POST http://localhost:3000/produtos
+Content-Type: application/json
+
+{
+    "nome": "X-Burguer"
+}
+
+
+
+### 
+
+
+
+PUT http://localhost:3000/produtos/1
+Content-Type: application/json
+
+{
+    "nome": "X-Especial",
+    "preco": 22.50
+}
+
+
+
+### 
+
+
+
+DELETE http://localhost:3000/produtos/1

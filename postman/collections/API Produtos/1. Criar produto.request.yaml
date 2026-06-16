@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:3000/produtos
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"nome\": \"Suco\",\r
+
+    \  \"preco\": 7\r
+
+    }"
+order: 1781551881300

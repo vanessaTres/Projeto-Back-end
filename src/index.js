@@ -1,19 +1,15 @@
+require('dotenv').config();
 
 const express = require('express');
-
-
 const produtosRouter = require('./routes/produtos');
-
 
 const app = express();
 
-
 app.use(express.json());
-
-
 app.use('/produtos', produtosRouter);
 
+const PORT = process.env.PORT || 3000;
 
-app.listen(3000, () => {
-    console.log('Servidor rodando em http://localhost:3000');
+app.listen(PORT, () => {
+    console.log(`Servidor rodando em http://localhost:${PORT}`);
 });
