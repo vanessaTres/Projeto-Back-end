@@ -4,10 +4,9 @@
   "description": "��\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-  
-  "start": "node src/index.js",
-  "dev": "nodemon src/index.js"
-},
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vanessaTres/Projeto-Back-end.git"

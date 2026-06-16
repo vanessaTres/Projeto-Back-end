@@ -40,4 +40,4 @@ const remover = (req, res) => {
     res.status(204).send();
 };
 
-module.exports = { listar, buscarPorId, criar, atualizar, remover };
+module.exports = { listar, buscarPorId, criar, atualizar, remover }; 
