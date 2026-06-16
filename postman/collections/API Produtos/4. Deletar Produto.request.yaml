@@ -1,4 +1,5 @@
 $kind: http-request
-url: ""
-method: GET
+name: 4. Deletar Produto
+url: http://localhost:3000/produtos/1
+method: DELETE
 order: 4255978259211654

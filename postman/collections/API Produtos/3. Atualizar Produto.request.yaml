@@ -1,4 +1,14 @@
 $kind: http-request
-url: ""
-method: GET
+name: 3. Atualizar Produto
+url: http://localhost:3000/produtos/1
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \  \"nome\": \"Suco Laranja\",\r
+
+    \  \"preco\": 8\r
+
+    }"
 order: 4172754903431105
